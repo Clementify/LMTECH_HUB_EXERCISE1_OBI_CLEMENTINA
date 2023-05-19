@@ -51,3 +51,15 @@ table {
 
 
 /* Write your css below here */
+:root{
+	background-color: azure;
+
+}
+.container{
+	display: grid;
+	grid-template-rows: repeat(2fr);
+	gap: 40px;
+	grid-template-areas: calc( 2fr);
+
+
+}
